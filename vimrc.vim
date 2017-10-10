@@ -64,8 +64,8 @@ endif
 
     " add our own vim/ and vim-multi-python/ folders to runtimepath
     let s:specials = ['vim', 'vim-multi-python', 'vim-git-magic']
-    if g:tmux_session == 'SPACETEA'
-      call add(s:specials, 'vim-space-tea')
+    if g:tmux_session == 'SPACETEA-DEV'
+      call add(s:specials, 'vim-spacetea')
     endif
     for s:name in s:specials
       let s:local = expand('<sfile>:h').'/'.s:name
