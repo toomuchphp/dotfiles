@@ -1,0 +1,5 @@
+{
+  "vim-spacetea": [
+    {"strategy": "pytest"}
+  ]
+}
